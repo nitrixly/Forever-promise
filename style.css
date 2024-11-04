@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ddd;
+}
+.card {
+    background-color: #222;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    opacity: 0;
+    display: none;
+    animation: fadeIn 1s forwards;
+    position: relative;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #FF69B4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.message {
+    font-size: 16px;
+    font-style: italic;
+    color: #FF69B4;
+    margin-top: 10px;
+    animation: slideIn 1s forwards;
+}
+.signature {
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
+.love-animation {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 105, 180, 0.1);
+    animation: loveAnimation 2s infinite;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes loveAnimation {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+.reveal-button, .more-button {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.reveal-button:hover, .more-button:hover {
+    background-color: #FFB6C1;
+    transform: scale(1.1);
+}
+.more-button img {
+    width: 20px;
+    height: 20px;
+}

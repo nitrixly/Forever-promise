@@ -2,7 +2,7 @@
 
 ![Forever Promise](https://i.imgur.com/1GMI4tL.jpeg)
 
-A beautiful, personalized web experience to express your love with style and sincerity. The project includes an animated card that reveals a heartfelt message on button click, complete with a subtle click sound and visual animations.
+A beautiful, personalized web experience to express your love with style and sincerity. The project includes an animated card that reveals a heartfelt message on button click, complete with a subtle click and visual animations.
 
 ## 🌟 Features
 

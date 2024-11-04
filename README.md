@@ -24,5 +24,5 @@ The project is divided into three main files:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/forever-promise.git
-   cd forever-promise
+   git clone https://github.com/nitrixly/Forever-promise.git
+   cd Forever-promise
